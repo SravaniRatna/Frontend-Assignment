@@ -1,10 +1,31 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Drag and Drop Example</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-$END$
+<div class="grid-container">
+<div id="container1">
+    <div class="item" draggable="true">Hey!</div>
+    <div class="item" draggable="true">Hello</div>
+    <div class="item" draggable="true"><img src="C:\Users\srava\Downloads\penguine.avif" alt="Image 2"></div>
+ </div>
+
+
+  <div id="container2">
+  </div>
+</div>
+
+<p class="success-message" id="successMessage"></p>
+
+<div class="reset-button">
+<button  onclick="reset()"><b>Reset</b></button>
+</div>
+
+  <script src="script.js"></script>
+
 </body>
 </html>
